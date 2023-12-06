@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  body[data-color="1"] {
+    background-color: #ffe066;
+  }
+
+  body[data-color="2"] {
+    background-color: #6fa3ef;
+  }
+
+  body[data-color="0"] {
+    background-color: #000000; 
+    color: #ffffff; 
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
